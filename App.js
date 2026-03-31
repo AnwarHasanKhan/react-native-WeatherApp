@@ -1,5 +1,5 @@
 import React, { useEffect } from 'react';
-import Main from './src/Main';
+import Main from './src/Main/Main';
 import { Alert, PermissionsAndroid, View, Text } from 'react-native';
 import {
   getMessaging,
@@ -39,7 +39,6 @@ const App = () => {
 
   return (
     <Main />
-    // <More />
   );
 };
 
