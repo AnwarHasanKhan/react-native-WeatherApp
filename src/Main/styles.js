@@ -1,12 +1,13 @@
-import { StyleSheet } from "react-native";
+import { StyleSheet } from 'react-native';
 
 export const styles = StyleSheet.create({
   searchbar: {
     width: '100%',
     flexDirection: 'row',
     alignItems: 'center',
-    justifyContent: 'flex-end',
+    justifyContent: 'space-between',
     backgroundColor: '#efefefff',
+    paddingHorizontal:5,
     gap: 5,
     borderRadius: 10,
   },
@@ -15,7 +16,6 @@ export const styles = StyleSheet.create({
     paddingHorizontal: 10,
   },
   firstbox: {
-    backgroundColor: '#2c2c2cff',
     width: '100%',
     alignItems: 'center',
     borderRadius: 10,
@@ -31,18 +31,17 @@ export const styles = StyleSheet.create({
   timebox: {
     alignItems: 'center',
     width: 70,
-    backgroundColor: '#2c2c2cff',
+    backgroundColor:'#ffffff29',
     paddingVertical: 10,
     borderRadius: 10,
     gap: 6,
   },
   daybox: {
     width: '95%',
-    borderWidth: 1,
-    borderRadius: 10,
-    borderColor: '#cdcdcdff',
+    backgroundColor:'#ffffff29',
     padding: 15,
     gap: 5,
+    borderRadius: 10,
     marginVertical: 5,
   },
 });
