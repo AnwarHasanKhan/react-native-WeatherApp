@@ -253,7 +253,7 @@ const Main = () => {
                     alignItems: 'center',
                     paddingVertical: 20,
                     borderRadius: 10,
-                    backgroundColor: '#ffffff29',
+                    backgroundColor: '#ffffff20',
                   }}
                 >
                   <View
@@ -286,7 +286,7 @@ const Main = () => {
                     alignItems: 'center',
                     paddingVertical: 20,
                     borderRadius: 10,
-                    backgroundColor: '#ffffff29',
+                    backgroundColor: '#ffffff20',
                   }}
                 >
                   <View
